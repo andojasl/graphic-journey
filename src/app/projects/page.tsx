@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     {
       title: "Kobu",
       description: "A filtering system for Kobu Parels' \"create your own\" service.",
-      images: ["/images/kobu-mockup.png"]
+      images: ["/images/parels.png"]
     },
     {
       title: "Prano", 
@@ -17,7 +17,7 @@ export default function ProjectsPage() {
     {
       title: "@ease",
       description: "Website for Teams at Ease", 
-      images: ["/images/ease-landing.png", "/images/ease-about.png"]
+      images: ["/images/@ease-2.png", "/images/@ease-1.png"]
     },
     {
       title: "Tote bag design",
@@ -32,7 +32,7 @@ export default function ProjectsPage() {
     {
       title: "Adobe advanced: gif", 
       description: "Drawn in Adobe Illustrator and brought to life using Photoshop",
-      images: ["/images/pizza-gif.png"],
+      images: ["/images/pizza-gif.gif"],
       isLarge: true
     },
     {
@@ -58,24 +58,24 @@ export default function ProjectsPage() {
       }}
     >
       {/* Header */}
-      <header className="flex justify-between items-center px-32 py-8 gap-24">
+      <header className="sticky top-0 z-50 backdrop-blur-md bg-white/80 flex justify-between items-center px-32 py-4 gap-24">
         {/* Logo */}
-        <div className="p-4 rounded">
+        <div className="p-2 rounded">
           <Image
             src="/images/signature.svg"
             alt="Signature Logo"
-            width={232}
-            height={84}
+            width={180}
+            height={65}
             className="w-auto h-auto"
           />
         </div>
 
         {/* Navigation */}
-        <div className="flex flex-col items-end gap-4">
+        <div className="flex flex-col items-end gap-2">
           <div className="flex items-center gap-2">
-            <Link href="/" className="text-xl text-accent hover:text-orange-800 flex flex-row gap-2 transition-colors">
+            <Link href="/" className="text-lg text-accent hover:text-orange-800 flex flex-row gap-2 transition-colors">
               Back to main
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-accent">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="text-accent">
               <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" fill="currentColor"/>
             </svg>
             </Link>

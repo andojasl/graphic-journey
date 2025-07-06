@@ -44,7 +44,7 @@ export default function IdentitySection() {
           
           {/* Color Palette */}
           <div className="mb-8">
-            <h4 className="font-semibold text-[#2E2E2E] mb-4">Color Psychology</h4>
+            <h4 className="font-semibold text-[#2E2E2E] mb-4">Colors</h4>
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="flex flex-col gap-2 mb-3">
@@ -127,16 +127,18 @@ export default function IdentitySection() {
                   alt="Heading"
                   width={200}
                   height={60}
-                  className="h-[60px] w-auto mb-2"
+                  className="h-[60px] w-auto mb-4"
                 />
-                <h2 className="text-2xl font-semibold text-[#2E2E2E] mb-2">Heading 2</h2>
-                <h3 className="text-xl font-medium text-[#2E2E2E] mb-2">Heading 3</h3>
+                <h1 className="text-4xl font-bold text-[#2E2E2E] mb-3">Main Title</h1>
+                <h3 className="text-xl font-semibold text-[#2E2E2E] mb-3">Section Heading</h3>
+                <h4 className="font-semibold text-[#2E2E2E] mb-3">Subsection</h4>
+                <blockquote className="text-2xl italic text-[#2E2E2E] mb-3">&ldquo;Hero Quote&rdquo;</blockquote>
                 <p className="text-base text-[#2E2E2E] mb-2">Body text paragraph</p>
                 <p className="text-sm text-[#6C7A89]">Caption text</p>
               </div>
               
               <div className="border-t border-[#CFCBC4] pt-4">
-                <p className="text-sm text-[#2E2E2E] font-mono">
+                <p className="text-sm text-[#2E2E2E]">
                   Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br />
                   Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz<br />
                   0 1 2 3 4 5 6 7 8 9
@@ -154,22 +156,30 @@ export default function IdentitySection() {
             
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-[#2E2E2E]">Primary</span>
-                <span className="text-sm text-[#6C7A89]">Gilroy Regular</span>
+                <span className="text-sm font-medium text-[#2E2E2E]">Main Title (H1)</span>
+                <span className="text-sm text-[#6C7A89]">Gilroy Bold</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-[#2E2E2E]">Headings</span>
+                <span className="text-sm font-medium text-[#2E2E2E]">Section Headings (H3)</span>
                 <span className="text-sm text-[#6C7A89]">Gilroy SemiBold</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-[#2E2E2E]">Logo</span>
-                <span className="text-sm text-[#6C7A89]">Handwritten</span>
+                <span className="text-sm font-medium text-[#2E2E2E]">Subsections (H4)</span>
+                <span className="text-sm text-[#6C7A89]">Gilroy SemiBold</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium text-[#2E2E2E]">Body Text</span>
+                <span className="text-sm text-[#6C7A89]">Gilroy Regular</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium text-[#2E2E2E]">Hero Quotes</span>
+                <span className="text-sm text-[#6C7A89]">Gilroy Italic</span>
               </div>
             </div>
             
             <div className="mt-6 p-4 bg-[#EDEBE5] rounded-lg">
               <p className="text-sm leading-[1.2em] text-[#2E2E2E]">
-                <strong>Personal Touch:</strong> As mentioned in the previous chapter, I ended up using my signature as the logo and my handwriting for the headings, embracing the authenticity of imperfection.
+                <strong>Personal Touch:</strong> The section headings you see in the images are handwritten by me, embracing the authenticity of imperfection. This personal element adds character while maintaining the clean Gilroy system for body text.
               </p>
             </div>
           </div>

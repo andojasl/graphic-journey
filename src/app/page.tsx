@@ -78,7 +78,7 @@ export default function HomePage() {
       `}</style>
       
       {/* Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-[#EDEBE5]/80 border-b border-[#CFCBC4]/30 flex justify-between items-center px-32 py-8 gap-24">
+      <header className="sticky top-0 z-50 backdrop-blur-md bg-[#EDEBE5]/80 border-b border-[#CFCBC4]/30 flex justify-between items-center px-32 pt-8 pb-4 gap-24">
         <div className="p-4 rounded">
           <Image
             src="/images/signature-logo.svg"
