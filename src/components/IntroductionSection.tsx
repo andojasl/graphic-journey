@@ -2,39 +2,66 @@ import Image from 'next/image'
 
 export default function IntroductionSection() {
   return (
-    <section id="introduction" className="px-36 pt-16 pb-4 scroll-mt-32">
-      <div className="flex items-center justify-center mb-12">
+    <section id="introduction" className="px-8 md:px-16 lg:px-36 pt-16 pb-20 scroll-mt-32">
+      {/* Logo */}
+      <div className="mb-12">
         <Image
           src="/images/graphic-journey.svg"
           alt="Graphic Journey"
-          width={290}
-          height={70}
-          className="h-[70px] w-auto"
+          width={280}
+          height={65}
+          className="h-[65px] w-auto"
         />
       </div>
 
-      <div className="flex gap-12">
-        <div className="flex-1 space-y-4">
-          <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-2">
-            <p className="text-base leading-[1.2em]">
-              This website is a reflection of my personal and professional growth throughout the graphic design minor. Over the course of these months, I've explored what it means to think, see, and create like a designer — not just through tools and techniques, but through mindset, intuition, and exploration
+      {/* Hero Content */}
+      <div className="max-w-4xl">
+        {/* Main Title */}
+        <h1 className="text-4xl md:text-5xl font-bold text-[#2E2E2E] leading-tight mb-8">
+          From uncertainty to
+          <span className="text-[#A4491D]"> confidence</span>,
+          one design at a time
+        </h1>
+
+        {/* Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Left Column */}
+          <div className="space-y-6">
+            <p className="text-base text-[#6C7A89] leading-relaxed">
+              This website chronicles my transformation throughout the graphic design minor — exploring what it means to think, see, and create like a designer.
             </p>
+
+            <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-4">
+              <blockquote className="text-base text-[#2E2E2E] leading-relaxed italic">
+                Every element of this journey is visual, personal, and honest. The website itself reflects my design identity — from typography to colors, layout, and structure.
+              </blockquote>
+            </div>
           </div>
-          <div className="h-24"></div>
-          <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-2">
-            <p className="text-base leading-[1.2em]">
-              Every part of this journey is visual, personal, and honest. The website itself is also a reflection of my design identity — from the typography to the colors, layout, and structure.
-            </p>
+
+          {/* Right Column */}
+          <div className="space-y-6">
+            <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-4">
+              <blockquote className="text-base text-[#2E2E2E] leading-relaxed italic">
+                What started as uncertainty has gradually evolved into confidence. I've learned how to draw inspiration from the world around me, how to translate ideas into visuals.
+              </blockquote>
+            </div>
+
+            <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-4">
+              <blockquote className="text-base text-[#2E2E2E] leading-relaxed italic">
+                I've discovered what kind of designer I want to be — one who values clarity, intuition, and thoughtful aesthetics.
+              </blockquote>
+            </div>
           </div>
         </div>
 
-        <div className="w-px bg-[#2E2E2E] mx-12"></div>
-
-        <div className="flex-1 flex items-center">
-          <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-2">
-            <p className="text-base leading-[1.2em]">
-              What started as uncertainty has gradually evolved into confidence. I've learned how to draw inspiration from the world around me, how to translate ideas into visuals, and how to embrace both structure and play in the creative process. I've also discovered what kind of designer I want to be — one who values clarity, intuition, and thoughtful aesthetics.
-            </p>
+        {/* Bottom Section */}
+        <div className="mt-12 pt-6 border-t border-[#CFCBC4]">
+          <div className="flex flex-wrap items-center gap-6">
+            <div className="text-sm text-[#A4491D] font-medium">Visual Storytelling</div>
+            <div className="w-1 h-1 bg-[#CFCBC4] rounded-full"></div>
+            <div className="text-sm text-[#6C7A89] font-medium">Creative Process</div>
+            <div className="w-1 h-1 bg-[#CFCBC4] rounded-full"></div>
+            <div className="text-sm text-[#2E2E2E] font-medium">Design Identity</div>
           </div>
         </div>
       </div>
