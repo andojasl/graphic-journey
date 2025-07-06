@@ -12,7 +12,7 @@ export default function ProjectCard({ title, description, images, isLarge = fals
     <div className="flex flex-col gap-4">
       <div className="px-36 py-4">
         <div className="flex flex-col gap-4">
-          <h3 className="text-2xl font-semibold text-gray-800 w-40">{title}</h3>
+          <h3 className="text-2xl font-semibold text-gray-800 w-96">{title}</h3>
           <p className="text-xl italic text-gray-800 h-13 leading-tight">{description}</p>
         </div>
       </div>

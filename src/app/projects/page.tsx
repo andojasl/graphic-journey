@@ -58,7 +58,7 @@ export default function ProjectsPage() {
       }}
     >
       {/* Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-white/80 flex justify-between items-center px-32 py-4 gap-24">
+      <header className="sticky top-0 z-50 backdrop-blur-md bg-[#EDEBE5]/80 flex justify-between items-center px-32 py-4 gap-24">
         {/* Logo */}
         <div className="p-2 rounded">
           <Image

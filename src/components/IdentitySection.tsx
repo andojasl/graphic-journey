@@ -24,13 +24,13 @@ export default function IdentitySection() {
       </div>
 
       {/* Journey Context */}
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <div className="flex justify-center">
           <p className="text-base leading-[1.2em] max-w-[600px] text-center">
             My journey began with an interest in UI/UX — crafting interfaces that are easy to use but still visually engaging. This duality defines my work and personal brand.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 mb-12">
@@ -39,6 +39,7 @@ export default function IdentitySection() {
         <div className="xl:col-span-2 bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-8">
           <h3 className="text-xl font-semibold mb-6 text-[#2E2E2E]">Personal Branding Philosophy</h3>
           <p className="text-base leading-[1.2em] text-[#2E2E2E] mb-8">
+            My journey began with an interest in UI/UX — crafting interfaces that are easy to use but still visually engaging. This duality defines my work and personal brand.
             My personal branding reflects this balance. I created a simple logo based on my signature, to symbolize clarity and authenticity. I chose a palette of pastel greens and terracotta: the green connects to my love for nature and running, while the terracotta reminds me of forest floors and tree trunks — both grounding and warm.
           </p>
           
