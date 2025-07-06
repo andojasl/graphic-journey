@@ -1,9 +1,91 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Gilroy Font Faces */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/gilroy-font/Gilroy-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
 
 :root {
   --background: #EDEBE5;
   --foreground: #2E2E2E;
+  --accent: #A4491D;
+  --accent-2: #6C7A89;
 }
 
 @theme inline {
@@ -11,49 +93,55 @@
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
   --color-accent-2: var(--accent-2);
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #EDEBE5;
-    --foreground: #ededed;
-    --accent: #A4492D;
-    --accent-2: #6C7A89;
-  }
+  --font-sans: 'Gilroy', system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Gilroy', system-ui, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Custom font weights to mimic Gilroy */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography Classes */
 .font-regular {
   font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-semibold {
   font-weight: 600;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 /* Custom text styles to match Figma design */
 .text-gilroy-regular {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Gilroy', system-ui, sans-serif;
   font-weight: 400;
 }
 
 .text-gilroy-semibold {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Gilroy', system-ui, sans-serif;
   font-weight: 600;
 }
 
 .text-gilroy-italic {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Gilroy', system-ui, sans-serif;
   font-style: italic;
   font-weight: 400;
 }

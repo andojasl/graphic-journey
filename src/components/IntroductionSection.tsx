@@ -5,11 +5,11 @@ export default function IntroductionSection() {
     <section id="introduction" className="px-36 pt-16 pb-4 scroll-mt-32">
       <div className="flex items-center justify-center mb-12">
         <Image
-          src="/images/section-2-icon.svg"
-          alt="Section icon"
+          src="/images/graphic-journey.svg"
+          alt="Graphic Journey"
           width={290}
-          height={61}
-          className="h-[61px] w-auto"
+          height={70}
+          className="h-[70px] w-auto"
         />
       </div>
 

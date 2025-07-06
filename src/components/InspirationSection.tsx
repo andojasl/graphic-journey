@@ -5,11 +5,11 @@ export default function InspirationSection() {
     <section id="inspiration" className="px-36 py-16 scroll-mt-32">
       <div className="mb-6">
         <Image
-          src="/images/section-3-icon.svg"
-          alt="Section icon"
+          src="/images/inspiration.svg"
+          alt="Inspiration"
           width={199}
-          height={87}
-          className="h-[87px] w-auto"
+          height={70}
+          className="h-[70px] w-auto"
         />
       </div>
 

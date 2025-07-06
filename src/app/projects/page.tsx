@@ -88,11 +88,11 @@ export default function ProjectsPage() {
       <div className="flex justify-center pb-16">
         <div className="p-4 rounded">
           <Image
-            src="/images/asset4.svg"
-            alt="Decorative Asset"
+            src="/images/projects.svg"
+            alt="Projects"
             width={202}
-            height={82}
-            className="w-auto h-auto"
+            height={70}
+            className="h-[70px] w-auto"
           />
         </div>
       </div>

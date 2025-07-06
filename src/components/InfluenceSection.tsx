@@ -5,11 +5,11 @@ export default function InfluenceSection() {
     <section id="influence" className="px-36 py-16 scroll-mt-32">
       <div className="mb-8">
         <Image
-          src="/images/influence-icon.svg"
-          alt="Influence icon"
+          src="/images/influence.svg"
+          alt="Influence"
           width={167}
-          height={75}
-          className="h-[75px] w-auto"
+          height={70}
+          className="h-[70px] w-auto"
         />
       </div>
 

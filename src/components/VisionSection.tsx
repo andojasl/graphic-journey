@@ -5,8 +5,8 @@ export default function VisionSection() {
     <section id="vision" className="px-36 py-16 scroll-mt-32">
       <div className="mb-8">
         <Image
-          src="/images/section-6-icon.svg"
-          alt="Section icon"
+          src="/images/vision.svg"
+          alt="Vision"
           width={101}
           height={70}
           className="h-[70px] w-auto"

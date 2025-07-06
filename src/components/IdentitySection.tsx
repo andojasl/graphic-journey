@@ -5,11 +5,11 @@ export default function IdentitySection() {
     <section id="identity" className="px-36 py-16 scroll-mt-32">
       <div className="mb-8">
         <Image
-          src="/images/section-4-icon.svg"
-          alt="Section icon"
+          src="/images/identity.svg"
+          alt="Identity"
           width={162}
-          height={82}
-          className="h-[82px] w-auto"
+          height={70}
+          className="h-[70px] w-auto"
         />
       </div>
 
@@ -123,8 +123,8 @@ export default function IdentitySection() {
             <div className="bg-white rounded-lg p-6 mb-6">
               <div className="mb-6">
                 <Image
-                  src="/images/header-handwritten.png"
-                  alt="Handwritten Header"
+                  src="/images/heading.svg"
+                  alt="Heading"
                   width={200}
                   height={60}
                   className="h-[60px] w-auto mb-2"

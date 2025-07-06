@@ -5,11 +5,11 @@ export default function GrowthSection() {
     <section id="growth" className="px-36 py-16 scroll-mt-32">
       <div className="mb-8">
         <Image
-          src="/images/section-5-icon.svg"
-          alt="Section icon"
+          src="/images/growth.svg"
+          alt="Growth"
           width={127}
-          height={51}
-          className="h-[51px] w-auto"
+          height={70}
+          className="h-[70px] w-auto"
         />
       </div>
 
