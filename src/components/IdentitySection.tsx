@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function IdentitySection() {
   return (
     <section id="identity" className="px-36 py-16 scroll-mt-32">
-      <div className="mb-6">
+      <div className="mb-8">
         <Image
           src="/images/section-4-icon.svg"
           alt="Section icon"
@@ -13,86 +13,164 @@ export default function IdentitySection() {
         />
       </div>
 
-      <div className="mb-8">
-        <p className="text-base italic leading-[1.2em] mb-8 max-w-[418px]">
-          I believe that good design should feel intuitive and immediately recognisable — but that doesn't mean it must sacrifice beauty. My goal is always to strike a balance between clarity and aesthetics.
-        </p>
+      {/* Hero Quote */}
+      <div className="mb-16">
+        <div className="max-w-[800px] mx-auto text-center">
+          <blockquote className="text-2xl italic leading-[1.3em] text-[#2E2E2E] mb-6">
+            "I believe that good design should feel intuitive and immediately recognisable — but that doesn't mean it must sacrifice beauty. My goal is always to strike a balance between clarity and aesthetics."
+          </blockquote>
+          <div className="w-16 h-px bg-[#A4492D] mx-auto"></div>
+        </div>
       </div>
 
-      <div className="flex justify-end mb-8">
-        <p className="text-base leading-[1.2em] max-w-[491px]">
-          My journey began with an interest in UI/UX — crafting interfaces that are easy to use but still visually engaging. This duality defines my work.
-        </p>
+      {/* Journey Context */}
+      <div className="mb-12">
+        <div className="flex justify-center">
+          <p className="text-base leading-[1.2em] max-w-[600px] text-center">
+            My journey began with an interest in UI/UX — crafting interfaces that are easy to use but still visually engaging. This duality defines my work and personal brand.
+          </p>
+        </div>
       </div>
 
-      <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-4">
-        <div className="flex gap-4 mb-14">
-          <div className="max-w-[883px]">
-            <p className="text-base leading-[1.2em] mb-4">
-              My personal branding reflects this. I created a simple logo based on my signature, to symbolize clarity and authenticity. I chose a palette of pastel greens and terracotta: the green connects to my love for nature and running, while the terracotta reminds me of forest floors and tree trunks — both grounding and warm. From a color psychology perspective, green evokes calm and balance; terracotta adds warmth and earthiness.
-            </p>
-
-            {/* Color Palette */}
-            <div className="flex gap-3 mb-6">
-              <div className="space-y-2">
-                <span className="text-base text-[#2E2E2E] block w-[107px]">Background</span>
-                <div className="flex gap-2">
-                  <div className="w-[75px] h-[75px] bg-[#CFCBC4] border border-[#6C7A89] rounded-lg"></div>
-                  <div className="w-[75px] h-[75px] bg-[#EDEBE5] border border-[#6C7A89] rounded-lg"></div>
+      {/* Main Content Grid */}
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 mb-12">
+        
+        {/* Personal Branding Story */}
+        <div className="xl:col-span-2 bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-8">
+          <h3 className="text-xl font-semibold mb-6 text-[#2E2E2E]">Personal Branding Philosophy</h3>
+          <p className="text-base leading-[1.2em] text-[#2E2E2E] mb-8">
+            My personal branding reflects this balance. I created a simple logo based on my signature, to symbolize clarity and authenticity. I chose a palette of pastel greens and terracotta: the green connects to my love for nature and running, while the terracotta reminds me of forest floors and tree trunks — both grounding and warm.
+          </p>
+          
+          {/* Color Palette */}
+          <div className="mb-8">
+            <h4 className="font-semibold text-[#2E2E2E] mb-4">Color Psychology</h4>
+            <div className="grid grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="flex flex-col gap-2 mb-3">
+                  <div className="w-full h-20 bg-[#CFCBC4] border-2 border-[#6C7A89] rounded-lg"></div>
+                  <div className="w-full h-20 bg-[#EDEBE5] border-2 border-[#6C7A89] rounded-lg"></div>
                 </div>
+                <p className="text-sm font-medium text-[#2E2E2E]">Background</p>
+                <p className="text-xs text-[#6C7A89]">Calm & Neutral</p>
               </div>
-              <div className="space-y-2">
-                <span className="text-base text-[#2E2E2E] block w-[107px]">Foreground</span>
-                <div className="flex gap-2">
-                  <div className="w-[75px] h-[75px] bg-[#F7F6F2] border border-[#6C7A89] rounded-lg"></div>
-                  <div className="w-[75px] h-[75px] bg-[#2E2E2E] border border-[#2E2E2E] rounded-lg"></div>
+              
+              <div className="text-center">
+                <div className="flex flex-col gap-2 mb-3">
+                  <div className="w-full h-20 bg-[#F7F6F2] border-2 border-[#6C7A89] rounded-lg"></div>
+                  <div className="w-full h-20 bg-[#2E2E2E] border-2 border-[#2E2E2E] rounded-lg"></div>
                 </div>
+                <p className="text-sm font-medium text-[#2E2E2E]">Foreground</p>
+                <p className="text-xs text-[#6C7A89]">Clean & Readable</p>
               </div>
-              <div className="space-y-2">
-                <span className="text-base text-[#2E2E2E] block w-[107px]">Accent</span>
-                <div className="flex gap-2">
-                  <div className="w-[75px] h-[75px] bg-[#A4492D] border border-[#6C7A89] rounded-lg"></div>
-                  <div className="w-[75px] h-[75px] bg-[#6C7A89] border border-[#6C7A89] rounded-lg"></div>
+              
+              <div className="text-center">
+                <div className="flex flex-col gap-2 mb-3">
+                  <div className="w-full h-20 bg-[#A4492D] border-2 border-[#6C7A89] rounded-lg"></div>
+                  <div className="w-full h-20 bg-[#6C7A89] border-2 border-[#6C7A89] rounded-lg"></div>
                 </div>
+                <p className="text-sm font-medium text-[#2E2E2E]">Accent</p>
+                <p className="text-xs text-[#6C7A89]">Warm & Balanced</p>
               </div>
             </div>
           </div>
+          
+          <p className="text-sm leading-[1.2em] text-[#6C7A89] italic">
+            From a color psychology perspective, green evokes calm and balance; terracotta adds warmth and earthiness — creating a palette that feels both professional and approachable.
+          </p>
         </div>
 
-        <div className="flex justify-end">
-          <div className="flex items-center gap-4 max-w-[743px]">
-            <div className="space-y-4">
-              <div className="bg-white p-6 rounded space-y-6">
-                <div>
-                  <Image
-                    src="/images/signature-logo.svg"
-                    alt="Signature Logo"
-                    width={150}
-                    height={55}
-                    className="h-[55px] w-auto"
-                  />
-                  <h3 className="text-2xl font-semibold mt-6">Subheader</h3>
-                </div>
-              </div>
-              <p className="text-base leading-[1.2em]">
-                Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br />
-                Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz<br />
-                0 1 2 3 4 5 6 7 8 9
-              </p>
+        {/* Logo Showcase */}
+        <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-8 flex flex-col justify-center">
+          <h3 className="text-xl font-semibold mb-6 text-[#2E2E2E] text-center">Visual Identity</h3>
+          
+          <div className="bg-white rounded-lg p-8 mb-6 text-center">
+            <Image
+              src="/images/signature-logo.svg"
+              alt="Signature Logo"
+              width={200}
+              height={72}
+              className="h-[72px] w-auto mx-auto mb-4"
+            />
+            <p className="text-sm text-[#6C7A89]">Primary Logo</p>
+          </div>
+          
+          <div className="space-y-3">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-[#2E2E2E]">Concept</span>
+              <span className="text-sm text-[#6C7A89]">Personal Signature</span>
             </div>
-            <div className="space-y-4 max-w-[400px]">
-              <p className="text-base leading-[1.2em]">
-                I chose Gilroy as my primary typeface for its geometric simplicity and legibility. It supports my clean, structured aesthetic. As mentioned in the previous chapter, I ended up using my signature as the logo and my handwriting for the headings.
-              </p>
-              <div className="bg-white p-4 rounded">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-[#2E2E2E]">Style</span>
+              <span className="text-sm text-[#6C7A89]">Handwritten</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-[#2E2E2E]">Purpose</span>
+              <span className="text-sm text-[#6C7A89]">Authenticity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Typography Section */}
+      <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          
+          {/* Typography Sample */}
+          <div>
+            <h3 className="text-xl font-semibold mb-6 text-[#2E2E2E]">Typography System</h3>
+            
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <div className="mb-6">
                 <Image
-                  src="/images/signature-logo.svg"
-                  alt="Logo"
-                  width={150}
-                  height={84}
-                  className="h-[84px] w-auto"
+                  src="/images/header-handwritten.png"
+                  alt="Handwritten Header"
+                  width={200}
+                  height={60}
+                  className="h-[60px] w-auto mb-2"
                 />
+                <h2 className="text-2xl font-semibold text-[#2E2E2E] mb-2">Heading 2</h2>
+                <h3 className="text-xl font-medium text-[#2E2E2E] mb-2">Heading 3</h3>
+                <p className="text-base text-[#2E2E2E] mb-2">Body text paragraph</p>
+                <p className="text-sm text-[#6C7A89]">Caption text</p>
               </div>
+              
+              <div className="border-t border-[#CFCBC4] pt-4">
+                <p className="text-sm text-[#2E2E2E] font-mono">
+                  Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br />
+                  Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz<br />
+                  0 1 2 3 4 5 6 7 8 9
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Typography Description */}
+          <div>
+            <h4 className="font-semibold text-[#2E2E2E] mb-4">Gilroy Font Family</h4>
+            <p className="text-base leading-[1.2em] text-[#2E2E2E] mb-6">
+              I chose Gilroy as my primary typeface for its geometric simplicity and legibility. It supports my clean, structured aesthetic while maintaining excellent readability across all sizes.
+            </p>
+            
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium text-[#2E2E2E]">Primary</span>
+                <span className="text-sm text-[#6C7A89]">Gilroy Regular</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium text-[#2E2E2E]">Headings</span>
+                <span className="text-sm text-[#6C7A89]">Gilroy SemiBold</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium text-[#2E2E2E]">Logo</span>
+                <span className="text-sm text-[#6C7A89]">Handwritten</span>
+              </div>
+            </div>
+            
+            <div className="mt-6 p-4 bg-[#EDEBE5] rounded-lg">
+              <p className="text-sm leading-[1.2em] text-[#2E2E2E]">
+                <strong>Personal Touch:</strong> As mentioned in the previous chapter, I ended up using my signature as the logo and my handwriting for the headings, embracing the authenticity of imperfection.
+              </p>
             </div>
           </div>
         </div>
