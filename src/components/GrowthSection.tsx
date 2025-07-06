@@ -156,7 +156,7 @@ export default function GrowthSection() {
           <div className="bg-white rounded-lg p-4 sm:p-6">
             <h4 className="text-base font-semibold text-[#6C7A89] mb-3 sm:mb-4">Key Takeaways</h4>
             <p className="text-sm sm:text-base leading-[1.2em] text-[#2E2E2E] mb-3 sm:mb-4">
-              The conversation reinforced that while I excel in collaborative settings, finding balance remains an ongoing challenge. Vienna's feedback highlighted both my strengths and areas where I can continue to grow.
+              The conversation reinforced that while I excel in collaborative settings, finding balance remains an ongoing challenge. Vienna&apos;s feedback highlighted both my strengths and areas where I can continue to grow.
             </p>
             
             <div className="bg-[#EDEBE5] rounded-lg p-3 sm:p-4">
