@@ -15,9 +15,9 @@ export default function IntroductionSection() {
       </div>
 
       {/* Hero Content */}
-      <div className="max-w-4xl">
+      <div className="">
         {/* Main Title */}
-        <h1 className="text-4xl md:text-5xl font-bold text-[#2E2E2E] leading-tight mb-8">
+        <h1 className="text-4xl max-w-4xl md:text-5xl font-bold text-[#2E2E2E] leading-tight mb-8">
           From uncertainty to
           <span className="text-[#A4491D]"> confidence</span>,
           one design at a time

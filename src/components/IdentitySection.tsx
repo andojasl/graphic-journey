@@ -40,7 +40,7 @@ export default function IdentitySection() {
           <h3 className="text-xl font-semibold mb-6 text-[#2E2E2E]">Personal Branding Philosophy</h3>
           <p className="text-base leading-[1.2em] text-[#2E2E2E] mb-8">
             My journey began with an interest in UI/UX — crafting interfaces that are easy to use but still visually engaging. This duality defines my work and personal brand.
-            My personal branding reflects this balance. I created a simple logo based on my signature, to symbolize clarity and authenticity. I chose a palette of pastel greens and terracotta: the green connects to my love for nature and running, while the terracotta reminds me of forest floors and tree trunks — both grounding and warm.
+            My personal branding reflects this balance. I created a simple logo based on my signature, to symbolize clarity and authenticity. I chose a palette of warm beige and terracotta: the beige creates a calm, neutral foundation that feels approachable, while the terracotta adds warmth and earthiness — both grounding and inviting.
           </p>
           
           {/* Color Palette */}
@@ -77,7 +77,7 @@ export default function IdentitySection() {
           </div>
           
           <p className="text-sm leading-[1.2em] text-[#6C7A89] italic">
-            From a color psychology perspective, green evokes calm and balance; terracotta adds warmth and earthiness — creating a palette that feels both professional and approachable.
+            From a color psychology perspective, warm beige tones evoke calm and reliability; terracotta adds warmth and earthiness — creating a palette that feels both professional and approachable.
           </p>
         </div>
 

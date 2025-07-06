@@ -127,7 +127,7 @@ export default function VisionSection() {
             Design
           </div>
           <div className="px-4 py-2 bg-[#6C7A89] text-white rounded-lg text-sm font-medium">
-            Deploy
+            Build
           </div>
           <div className="px-4 py-2 bg-[#2E2E2E] text-white rounded-lg text-sm font-medium">
             Deploy
