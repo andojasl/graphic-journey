@@ -7,7 +7,7 @@ export default function GrowthSection() {
         <Image
           src="/images/growth.svg"
           alt="Growth"
-          width={127}
+          width={167}
           height={70}
           className="h-[70px] w-auto"
         />
@@ -17,7 +17,7 @@ export default function GrowthSection() {
       <div className="mb-16">
         <div className="max-w-[700px] mx-auto text-center">
           <blockquote className="text-2xl italic leading-[1.3em] text-[#2E2E2E] mb-6">
-            "Creativity isn't a fixed trait — it's a process. I gave myself permission to try, to fail, to experiment."
+            &ldquo;Creativity isn&apos;t a fixed trait — it&apos;s a process. I gave myself permission to try, to fail, to experiment.&rdquo;
           </blockquote>
           <div className="w-16 h-px bg-[#A4492D] mx-auto"></div>
         </div>
@@ -34,14 +34,14 @@ export default function GrowthSection() {
             <div className="bg-[#EDEBE5] rounded-lg p-6">
               <h4 className="font-semibold text-[#A4492D] mb-3">Before</h4>
               <p className="text-base leading-[1.2em] text-[#2E2E2E]">
-                At the start of this minor, I didn't feel like a designer. I was uncertain, even uncomfortable calling myself one. Visual creativity was something I admired in others — not something I felt confident in.
+                At the start of this minor, I didn&apos;t feel like a designer. I was uncertain, even uncomfortable calling myself one. Visual creativity was something I admired in others — not something I felt confident in.
               </p>
             </div>
             
             <div className="bg-white rounded-lg p-6 border border-[#6C7A89]">
               <h4 className="font-semibold text-[#6C7A89] mb-3">After</h4>
               <p className="text-base leading-[1.2em] text-[#2E2E2E]">
-                But I was determined to change that. As the weeks passed, I realized that creativity isn't a fixed trait — it's a process. The more I experimented, the more confident I became.
+                But I was determined to change that. As the weeks passed, I realized that creativity isn&apos;t a fixed trait — it&apos;s a process. The more I experimented, the more confident I became.
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function GrowthSection() {
               <div>
                 <h4 className="font-semibold text-[#2E2E2E] mb-2">Curiosity Over Perfection</h4>
                 <p className="text-base leading-[1.2em] text-[#6C7A89]">
-                  Being a designer isn't about being perfect — it's about being curious and responsive.
+                  Being a designer isn&apos;t about being perfect — it&apos;s about being curious and responsive.
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function GrowthSection() {
             
             <div className="mt-6 p-4 bg-[#EDEBE5] rounded-lg">
               <p className="text-sm leading-[1.2em] text-[#2E2E2E] italic">
-                "Sometimes the most important growth happens not in what you create, but in how you show up."
+                &ldquo;Sometimes the most important growth happens not in what you create, but in how you show up.&rdquo;
               </p>
             </div>
           </div>

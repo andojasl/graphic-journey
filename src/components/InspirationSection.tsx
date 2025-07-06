@@ -7,7 +7,7 @@ export default function InspirationSection() {
         <Image
           src="/images/inspiration.svg"
           alt="Inspiration"
-          width={199}
+          width={162}
           height={70}
           className="h-[70px] w-auto"
         />
@@ -18,7 +18,7 @@ export default function InspirationSection() {
           {/* Left Column */}
           <div className="flex flex-col gap-2 flex-1">
             <p className="text-base leading-[1.2em] w-[495px] mb-2">
-              In the beginning of this minor, getting started was one of my biggest challenges. I used to think that great ideas would come with enough theoretical knowledge — that there'd always be a 'right' solution. But I've come to realize something far more practical: you just have to start. Once I begin sketching or typing or designing, ideas follow.
+              In the beginning of this minor, getting started was one of my biggest challenges. I used to think that great ideas would come with enough theoretical knowledge — that there&apos;d always be a &lsquo;right&rsquo; solution. But I&apos;ve come to realize something far more practical: you just have to start. Once I begin sketching or typing or designing, ideas follow.
             </p>
             
             <div className="w-full h-[360px] mb-2">
@@ -33,7 +33,7 @@ export default function InspirationSection() {
             
             <div className="flex justify-between items-center gap-2">
               <p className="text-base leading-[1.2em] w-[285px]">
-                When I'm stuck, I often go for a run. While it doesn't always generate a solution, it helps clear my head and reset my thought process — and occasionally, the best ideas appear while I'm moving.
+                When I&apos;m stuck, I often go for a run. While it doesn&apos;t always generate a solution, it helps clear my head and reset my thought process — and occasionally, the best ideas appear while I&apos;m moving.
               </p>
               
               <div className="w-[213px] h-[369px]">
@@ -74,7 +74,7 @@ export default function InspirationSection() {
               </div>
               
               <p className="text-base leading-[1.2em]">
-                My inspiration comes from everything around me. Since starting this minor, I've become more visually aware — logos on shops, street signs, even license plates now feel like part of a design conversation. Music, books, nature — I catch myself visualising their energy in colours and compositions: vibrant and bold, or soft and minimal. Design is truly everywhere.
+                My inspiration comes from everything around me. Since starting this minor, I&apos;ve become more visually aware — logos on shops, street signs, even license plates now feel like part of a design conversation. Music, books, nature — I catch myself visualising their energy in colours and compositions: vibrant and bold, or soft and minimal. Design is truly everywhere.
               </p>
             </div>
 
@@ -100,9 +100,9 @@ export default function InspirationSection() {
                   </div>
                   
                   <p className="text-base leading-[1.2em] w-[380px]">
-                    I'm generally a very active person, and I find it challenging to sit still and focus for long periods.
+                    I&apos;m generally a very active person, and I find it challenging to sit still and focus for long periods.
                     <br /><br />
-                    However, I've noticed that listening to jazz helps me concentrate and actually enjoy the process.
+                    However, I&apos;ve noticed that listening to jazz helps me concentrate and actually enjoy the process.
                   </p>
                 </div>
               </div>

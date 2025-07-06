@@ -15,7 +15,7 @@ export default function InfluenceSection() {
 
       <div className="mb-8">
         <p className="text-base leading-[1.2em] max-w-[600px]">
-          I came into this minor hoping to 'learn color theory and typography.' What I found instead was that true understanding isn't about memorising rules — it's about experimenting.
+          I came into this minor hoping to &lsquo;learn color theory and typography.&rsquo; What I found instead was that true understanding isn&apos;t about memorising rules — it&apos;s about experimenting.
         </p>
       </div>
 
@@ -28,7 +28,7 @@ export default function InfluenceSection() {
             <div className="border-l-4 border-[#A4492D] pl-4">
               <h4 className="font-semibold text-[#2E2E2E] mb-2">Workshops & Exercises</h4>
               <p className="text-base leading-[1.2em] text-[#2E2E2E]">
-                From workshops like the "Poster with Two Typefaces" to classes on color psychology, I learned to let go of perfectionism. These exercises gave me space to play, to improvise, and to realize that making something imperfect is still moving forward.
+                From workshops like the &ldquo;Poster with Two Typefaces&rdquo; to classes on color psychology, I learned to let go of perfectionism. These exercises gave me space to play, to improvise, and to realize that making something imperfect is still moving forward.
               </p>
             </div>
 
@@ -42,7 +42,7 @@ export default function InfluenceSection() {
             <div className="border-l-4 border-[#CFCBC4] pl-4">
               <h4 className="font-semibold text-[#2E2E2E] mb-2">Analogue Classes</h4>
               <p className="text-base leading-[1.2em] text-[#2E2E2E]">
-                Despite my initial discomfort with drawing, the analogue class helped me embrace the value of tactile experimentation. It showed me that even outside of the digital world, design is about attitude, not skill level. This website reflects that realisation: I've always felt a bit insecure about my handwriting and signature, but here, I chose to embrace them—using my signature as the logo and my handwriting for the headings.
+                Despite my initial discomfort with drawing, the analogue class helped me embrace the value of tactile experimentation. It showed me that even outside of the digital world, design is about attitude, not skill level. This website reflects that realisation: I&apos;ve always felt a bit insecure about my handwriting and signature, but here, I chose to embrace them—using my signature as the logo and my handwriting for the headings.
               </p>
             </div>
           </div>

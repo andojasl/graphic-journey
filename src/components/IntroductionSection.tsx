@@ -42,13 +42,13 @@ export default function IntroductionSection() {
           <div className="space-y-6">
             <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-4">
               <blockquote className="text-base text-[#2E2E2E] leading-relaxed italic">
-                What started as uncertainty has gradually evolved into confidence. I've learned how to draw inspiration from the world around me, how to translate ideas into visuals.
+                What started as uncertainty has gradually evolved into confidence. I&apos;ve learned how to draw inspiration from the world around me, how to translate ideas into visuals.
               </blockquote>
             </div>
 
             <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-4">
               <blockquote className="text-base text-[#2E2E2E] leading-relaxed italic">
-                I've discovered what kind of designer I want to be — one who values clarity, intuition, and thoughtful aesthetics.
+                I&apos;ve discovered what kind of designer I want to be — one who values clarity, intuition, and thoughtful aesthetics.
               </blockquote>
             </div>
           </div>

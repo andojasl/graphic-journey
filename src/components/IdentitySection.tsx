@@ -7,7 +7,7 @@ export default function IdentitySection() {
         <Image
           src="/images/identity.svg"
           alt="Identity"
-          width={162}
+          width={167}
           height={70}
           className="h-[70px] w-auto"
         />
@@ -17,7 +17,7 @@ export default function IdentitySection() {
       <div className="mb-16">
         <div className="max-w-[800px] mx-auto text-center">
           <blockquote className="text-2xl italic leading-[1.3em] text-[#2E2E2E] mb-6">
-            "I believe that good design should feel intuitive and immediately recognisable — but that doesn't mean it must sacrifice beauty. My goal is always to strike a balance between clarity and aesthetics."
+            &ldquo;I believe that good design should feel intuitive and immediately recognisable — but that doesn&apos;t mean it must sacrifice beauty. My goal is always to strike a balance between clarity and aesthetics.&rdquo;
           </blockquote>
           <div className="w-16 h-px bg-[#A4492D] mx-auto"></div>
         </div>

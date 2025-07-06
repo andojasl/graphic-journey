@@ -7,7 +7,7 @@ export default function VisionSection() {
         <Image
           src="/images/vision.svg"
           alt="Vision"
-          width={101}
+          width={162}
           height={70}
           className="h-[70px] w-auto"
         />
@@ -17,7 +17,7 @@ export default function VisionSection() {
       <div className="mb-16">
         <div className="max-w-[800px] mx-auto text-center">
           <blockquote className="text-2xl italic leading-[1.3em] text-[#2E2E2E] mb-6">
-            "I see myself as a designer-developer hybrid — someone who can take a product from concept to code."
+            &ldquo;I see myself as a designer-developer hybrid — someone who can take a product from concept to code.&rdquo;
           </blockquote>
           <div className="w-16 h-px bg-[#A4492D] mx-auto"></div>
         </div>
@@ -28,7 +28,7 @@ export default function VisionSection() {
         <div className="bg-[#F7F6F2] border border-[#CFCBC4] rounded-lg p-8">
           <h3 className="text-xl font-semibold mb-6 text-[#2E2E2E] text-center">The Vision</h3>
           <p className="text-base leading-[1.2em] text-center max-w-[600px] mx-auto">
-            What excites me is the ability to build something entirely on my own: from brand identity and UX to fully functioning software. This minor gave me the confidence to believe that this hybrid identity is not only possible — it's powerful.
+            What excites me is the ability to build something entirely on my own: from brand identity and UX to fully functioning software. This minor gave me the confidence to believe that this hybrid identity is not only possible — it&apos;s powerful.
           </p>
         </div>
       </div>
@@ -108,7 +108,7 @@ export default function VisionSection() {
             <div className="bg-[#EDEBE5] rounded-lg p-6">
               <h4 className="font-semibold text-[#2E2E2E] mb-3">Hybrid Identity</h4>
               <p className="text-base leading-[1.2em] text-[#6C7A89]">
-                This minor gave me the confidence to believe that this hybrid identity is not only possible — it's powerful.
+                This minor gave me the confidence to believe that this hybrid identity is not only possible — it&apos;s powerful.
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function VisionSection() {
             Design
           </div>
           <div className="px-4 py-2 bg-[#6C7A89] text-white rounded-lg text-sm font-medium">
-            Develop
+            Deploy
           </div>
           <div className="px-4 py-2 bg-[#2E2E2E] text-white rounded-lg text-sm font-medium">
             Deploy
