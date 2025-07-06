@@ -19,19 +19,7 @@ export default function Header({ activeSection }: HeaderProps) {
         />
       </div>
       <div className='flex flex-col gap-4'>
-        <div className="flex items-center justify-end gap-2">
-          <Link href="/projects" className="flex items-center gap-2 group">
-            <span className="text-[#A4492D] text-xl">My projects</span>
-            <Image
-              src="/images/arrow-forward.svg"
-              alt="Arrow"
-              width={24}
-              height={24}
-              className="text-[#A4492D]"
-            />
-          </Link>
-        </div>
-        <section>
+                <section>
           <div className="flex justify-end">
             <div className="bg-[#CFCBC4] border border-[#F7F6F2] rounded-xl p-3 flex gap-4">
               <a 
@@ -87,6 +75,19 @@ export default function Header({ activeSection }: HeaderProps) {
             </div>
           </div>
         </section>
+        <div className="flex items-center justify-end gap-3">
+          <Link href="/projects" className="flex items-center gap-3 group">
+            <span className="text-[#A4491D] text-xl">My projects</span>
+            <Image
+              src="/images/arrow-forward.svg"
+              alt="Arrow"
+              width={23}
+              height={23}
+              className="text-[#A4491D]"
+            />
+          </Link>
+        </div>
+
       </div>
     </header>
   )
